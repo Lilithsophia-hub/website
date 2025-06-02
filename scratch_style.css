@@ -1,0 +1,165 @@
+/* Main Styles */
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.news.de%2Fresources%2Fimages%2Fba%2Fe1%2Ff9de9d159c5c48fe2214efd39c60.jpg&f=1&nofb=1&ipt=92e7f4651b275692a8d964584836cea08c3d52f886ea7bdc1efeed95bc197316');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.nav-container {
+    background-color: rgba(25, 97, 181, 0.95); /* Hoffenheim blue with transparency */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-list a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #e0e0e0;
+}
+
+/* Content Container */
+.content-container {
+    max-width: 1200px;
+    margin: 80px auto 0;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.main-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-header h1 {
+    color: #1961B5; /* Hoffenheim blue */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Logo Styles */
+.logo-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.logo-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Timeline Section */
+.timeline-section {
+    background-color: rgba(25, 97, 181, 0.1); /* Light blue background */
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+/* List Styles */
+.timeline-list {
+    padding-left: 2rem;
+}
+
+.timeline-list li {
+    margin-bottom: 1rem;
+}
+
+/* Media Section */
+.media-section {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.media-section iframe {
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+/* Image Styles */
+.history-image {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border: 3px solid #1961B5;
+    border-radius: 5px;
+}
+
+/* Anchor Links */
+.anchor-links {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.anchor-links a {
+    color: #1961B5;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.anchor-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .content-container {
+        padding: 1rem;
+        margin-top: 200px;
+    }
+
+    .main-header h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(25, 97, 181, 0.95);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Tableau Container */
+.tableau-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+} 
